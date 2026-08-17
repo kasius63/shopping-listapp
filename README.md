@@ -36,3 +36,15 @@ Row Level Security가 활성화되어 있으며, `anon` 역할에 대해 select/
 ## 실행 방법
 
 `index.html` 파일을 브라우저에서 열면 바로 사용할 수 있습니다.
+
+## GitHub Pages 배포
+
+이 저장소는 GitHub Pages로 배포할 수 있습니다. 별도 빌드 과정이 없는 정적 파일이므로 브랜치 배포 방식을 사용합니다.
+
+1. 저장소가 비공개(private)라면 GitHub Pages를 사용하기 위해 공개(public)로 전환합니다. (GitHub Free 플랜은 비공개 저장소에서 Pages를 지원하지 않습니다.)
+2. **Settings → Pages** 로 이동합니다.
+3. **Build and deployment → Source** 를 `Deploy from a branch` 로 설정합니다.
+4. **Branch** 를 `main` / `/ (root)` 로 설정하고 저장합니다.
+5. 잠시 후 `https://kasius63.github.io/shopping-listapp/` 주소에서 앱이 배포됩니다.
+
+`main` 브랜치에 새로 push할 때마다 GitHub Pages가 자동으로 최신 내용을 반영합니다.
